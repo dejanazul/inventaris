@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+
+# Debugger Configs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build files (for frontend)
+frontend/build/
+frontend/dist/
+
+# Optional lock files
+package-lock.json
+yarn.lock
