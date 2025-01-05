@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Logs
+*.log
+logs/
+
+# Environment Variables
+.env
+
+# Debugger Configs
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Optional
+package-lock.json
