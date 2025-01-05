@@ -8,6 +8,10 @@ const app = express()
 
 // middleware
 app.use(express.json())
+app.use((req, res, next) => {
+    console.log("Request IP: ", req.ip);
+    next();
+})
 
 // routes utama
 app.get("/", (req, res) => {
